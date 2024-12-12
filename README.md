@@ -1,10 +1,10 @@
-# Bank Server DoS Monitoring System (MQTT-Based)
+# Server DoS Monitoring System (MQTT-Based)
 
 ## Project Overview
 
-The **Bank Server DoS Monitoring System** is an MQTT-based application designed to monitor bank server resources (CPU, RAM) and network traffic to detect and respond to potential Denial of Service (DoS) attacks. The system uses a **publish-subscribe** architecture and consists of four main components:
+The **Server DoS Monitoring System** is an MQTT-based application designed to monitor server resources (CPU, RAM) and network traffic to detect and respond to potential Denial of Service (DoS) attacks. The system uses a **publish-subscribe** architecture and consists of four main components:
 
-- **Sensors**: Deployed on the bank server to publish metrics (e.g., CPU usage, RAM usage).
+- **Sensors**: Deployed on the server to publish metrics (e.g., CPU usage, RAM usage).
 - **Monitoring System**: Detects abnormal behavior and triggers alerts.
 - **Controller**: Acts as a load balancer to scale up the server or enable rate-limiting during an attack.
 - **User Interface**: Displays server metrics and alerts, and allows administrators to send commands.
